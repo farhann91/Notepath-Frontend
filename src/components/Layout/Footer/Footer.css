@@ -1,0 +1,9 @@
+.footer {
+  background: #212529;
+  color: #b1ada8;
+}
+.footer-container {
+  margin: 10px;
+  font-size: 85%;
+  text-align: center;
+}

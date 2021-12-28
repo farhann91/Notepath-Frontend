@@ -1,0 +1,33 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+  .dp {
+    display: none;
+  }
+
+  .main-categories {
+    display: flex;
+  }
+  .main-categories > h5 {
+    display: none;
+  }
+  .main-categories a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 5px 10px 0 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #0b5ed7;
+  }
+}

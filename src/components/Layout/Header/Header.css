@@ -1,0 +1,76 @@
+#cashBrand {
+  color: rgb(255, 153, 0);
+}
+.navbar {
+  margin-bottom: 0;
+}
+#navBrand {
+  color: white;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+.navBrand {
+  display: flex;
+  align-items: center;
+  /* width: 50px;
+  height: 50px; */
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: url("/src/assets/images/brand.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.general-users,
+.authenticated-users {
+  /* background: red; */
+  display: flex;
+}
+
+.me-auto.navbar-nav {
+  display: flex;
+  align-items: center !important;
+}
+
+.me-auto.navbar-nav a {
+  color: #b1ada8;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.authButtons {
+  display: flex;
+}
+.rigt-nav-items button {
+  margin-right: 10px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .me-auto.navbar-nav {
+    display: flex;
+    align-items: flex-start !important;
+  }
+  .me-auto.navbar-nav a {
+    margin-bottom: 10px;
+  }
+  .general-users,
+  .authenticated-users {
+    flex-direction: column;
+  }
+  .rigt-nav-items {
+    align-items: flex-start;
+  }
+
+  .rigt-nav-items button {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.chartWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  box-shadow: -1px 7px 9px -1px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+/* .chartWrapper canvas {
+  width: 400px !important;
+  height: 400px !important;
+  width: 50% !important;
+  height: 50% !important;
+} */
+
+@media screen and (max-width: 992px) {
+  .chartWrapper {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,83 @@
+.feature-item {
+  display: flex;
+}
+.feature-item2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.containered1 {
+  background: #d2e0f5;
+}
+.containered2 {
+  background: whitesmoke;
+  margin-bottom: 60px;
+}
+
+.image {
+  width: 50%;
+  height: 400px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+  color: whitesmoke;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text p {
+  color: whitesmoke;
+}
+
+/* ::::::::::::::::::::::::::::::::::media queries::::::::::::::::::::::::: */
+@media screen and (max-width: 992px) {
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    height: 300px;
+  }
+  .text {
+    width: 100%;
+    height: 300px;
+  }
+  .containered1,
+  .containered2 {
+    height: 640px;
+    padding-top: 20px;
+    box-shadow: -1px 7px 9px -1px rgba(0, 0, 0, 0.75);
+    margin: 30px;
+  }
+  .containered1 h5,
+  .containered2 h5 {
+    font-size: 110%;
+  }
+
+  .feature-item2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-item2 .image {
+    width: 100%;
+  }
+}

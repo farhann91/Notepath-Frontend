@@ -1,0 +1,50 @@
+.imageUploadForm {
+  box-shadow: none;
+}
+.file_instructionsAndErrorMsg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imageUploadBtn {
+  margin-top: 20px;
+}
+
+.settingsWrapper {
+  width: 100%;
+}
+
+.userPreferences {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logoutAll {
+  width: 49%;
+  color: whitesmoke !important;
+}
+.deleteAccount {
+  width: 49%;
+}
+.userPreferences .btn-warning {
+  color: #004279;
+}
+
+@media screen and (max-width: 992px) {
+  .imageUploader {
+    display: none;
+  }
+  .userPreferences {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoutAll {
+    margin-bottom: 20px;
+    width: 100%;
+    color: whitesmoke !important;
+  }
+  .deleteAccount {
+    width: 100%;
+  }
+}

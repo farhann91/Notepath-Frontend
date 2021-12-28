@@ -1,0 +1,10 @@
+.add_task_input {
+  min-width: 100%;
+}
+
+/* .tabble-wrapper {
+  background: red !important;
+} */
+
+@media screen and (max-width: 992px) {
+}

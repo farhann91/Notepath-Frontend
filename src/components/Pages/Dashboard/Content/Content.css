@@ -1,0 +1,19 @@
+.content {
+  margin-left: 40px;
+  padding-right: 10px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    /* padding: 10px 20px 10px 0; */
+  }
+}

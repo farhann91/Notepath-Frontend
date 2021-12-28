@@ -1,0 +1,12 @@
+.theWrapper {
+  color: green !important;
+  display: flex;
+  align-items: center;
+  /* background: url("../../../assets/images/404.jpg"); */
+  height: 80%;
+  padding: 100px;
+}
+
+.notFoundText {
+  color: red !important;
+}
