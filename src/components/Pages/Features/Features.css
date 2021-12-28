@@ -81,3 +81,14 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .useless {
+    display: none;
+  }
+  .featureBody {
+    /* display: flex; */
+
+    /* flex-direction: column-reverse; */
+  }
+}

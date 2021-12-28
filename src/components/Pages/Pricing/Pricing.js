@@ -24,7 +24,7 @@ const Pricing = () => {
         amount={amount}
       />
       <div
-        className="headertext container"
+        className="headertext container useless"
         data-aos="fade-down"
         style={{ color: "#585050", fontWeight: "300" }}
       >
@@ -66,7 +66,7 @@ const Pricing = () => {
               </p>
               <hr />
               <button className="btn btn-primary" form-control disabled>
-                Subscribe
+                Purchase
               </button>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Pricing = () => {
               <img
                 src={image}
                 alt="mpesa"
-                style={{ width: "300px", height: "80px" }}
+                style={{ width: "250px", height: "80px" }}
               />{" "}
               <hr />
               <h4>Ksh: 250/= Monthily</h4>
@@ -111,7 +111,7 @@ const Pricing = () => {
                 form-control
                 onClick={() => makePayment(250)}
               >
-                Subscribe
+                Purchase
               </button>
             </div>
           </div>
@@ -124,7 +124,7 @@ const Pricing = () => {
               <img
                 src={image}
                 alt="mpesa"
-                style={{ width: "300px", height: "80px" }}
+                style={{ width: "250px", height: "80px" }}
               />{" "}
               <hr />
               <h4>Ksh: 500/= Monthily</h4>
@@ -150,7 +150,7 @@ const Pricing = () => {
                 form-control
                 onClick={() => makePayment(500)}
               >
-                Subscribe
+                Purchase
               </button>
             </div>
           </div>

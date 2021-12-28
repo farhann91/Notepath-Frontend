@@ -6,7 +6,7 @@ import hourGlass from "../../../assets/images/hour-glass.jpg";
 
 const Features = () => {
   return (
-    <div>
+    <div className="featureBody">
       <div
         className="headertext container"
         data-aos="fade-down"
@@ -17,12 +17,15 @@ const Features = () => {
         </h3>
         <p>
           With the emergence cheap internet access accross the African
-          continent, a new era has dawned on the eastern Africa region. As all
-          business rush online we ensure that they dont forget the key details
-          of there path. This is dear to us at Notepath thats why our platiform
-          provides user friendly task management online system. A few companies
-          have been trying to walk our shoes but its clearly now who the leaders
-          are.
+          continent, a new era has dawned on the eastern Africa region.
+          <span className="useless">
+            {" "}
+            As all business rush online we ensure that they dont forget the key
+            details of there path. This is dear to us at Notepath thats why our
+            platiform provides user friendly task management online system. A
+            few companies have been trying to walk our shoes but its clearly now
+            who the leaders are.
+          </span>
         </p>
       </div>
 
@@ -51,10 +54,12 @@ const Features = () => {
               <h5>Pomodoro Timer (Time Management)</h5>
               <p>
                 Day by day we aproach our grave. This means that no task
-                perfomed everyday nomatter how small should be useless. With our
-                time managaement pomodoro feature, one knows what tasks are to
-                be perfomed and when to perfom them. This is still done in a way
-                that does not lead to burn out.
+                perfomed everyday nomatter how small should be useless.
+                <span className="useless">
+                  With our time managaement pomodoro feature, one knows what
+                  tasks are to be perfomed and when to perfom them. This is
+                  still done in a way that does not lead to burn out.
+                </span>
               </p>
             </div>
           </div>
