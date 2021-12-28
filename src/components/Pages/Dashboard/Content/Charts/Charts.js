@@ -73,10 +73,13 @@ class Charts extends Component {
           data-aos="fade-down"
           style={{ color: "#585050", fontWeight: "300" }}
         >
-          <h3 style={{ fontWeight: "300", textTransform: "capitalize" }}>
+          <h3
+            style={{ fontWeight: "300", textTransform: "capitalize" }}
+            className="useless"
+          >
             Performance chart
           </h3>
-          <p>
+          <p className="useless">
             The rates are automatically generated from the pattern formed from
             your task completion rate. These should give a client a clear idea
             how his plan and execution proportion lies and act accordingly.
